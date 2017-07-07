@@ -18,7 +18,7 @@ defineSupportCode(function ({ Given, When, Then }) {
         return testController.typeText(input, text);
     });
 
-    When('Eu estou pressionando a tecla {stringInDoubleQuotes} no Google', function (text) {
+    When('Eu pressiono a tecla {stringInDoubleQuotes} no Google', function (text) {
         return testController.pressKey(text);
     });
 
